@@ -1,8 +1,12 @@
 aid: arc
 name: Arc
-description: Arc is a company surfaced as a portfolio company of 500-global, a16z, menlo-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Arc (arc.dev, formerly CodementorX, and sister to the Codementor mentorship
+  marketplace) is a remote talent marketplace that connects companies with vetted freelance
+  and full-time software developers, designers, marketers, and product managers across
+  190 countries. Arc screens applicants down to roughly the top 2%, and partners with
+  Deel and Remote for cross-border payroll and compliance. Arc operates as a hiring
+  platform and does not publish a public developer API, OpenAPI specification, SDKs,
+  or webhook surface.
 url: https://raw.githubusercontent.com/api-evangelist/arc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +16,29 @@ x-backed-by:
 - menlo-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.arc.dev/arc-next-landing/images/client/og.png
 tags:
 - Company
+- Recruiting
+- Hiring
+- Talent Marketplace
+- Remote Work
+- Developers
+- Freelance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +47,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://codementor.io
+  url: https://arc.dev/
+- type: Pricing
+  url: https://arc.dev/pricing
+- type: Blog
+  url: https://arc.dev/talent-blog
+- type: SignUp
+  url: https://arc.dev/get-started
+- type: TermsOfService
+  url: https://arc.dev/terms
+- type: PrivacyPolicy
+  url: https://arc.dev/privacy
+- type: DomainSecurity
+  url: security/arc-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
